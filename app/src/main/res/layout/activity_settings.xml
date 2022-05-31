@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+
         android:id="@+id/constraintLayout"
         android:layout_width="409dp"
         android:layout_height="56dp"
@@ -21,7 +22,6 @@
             android:layout_width="83dp"
             android:layout_height="59dp"
             android:background="@color/SecondCol"
-            android:onClick="chatMe"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/clickHome"
             app:layout_constraintHorizontal_bias="0.337"
@@ -60,6 +60,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
+
             android:id="@+id/clickHome"
             android:layout_width="83dp"
             android:layout_height="59dp"
@@ -94,7 +95,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_baseline_home_24_active"
+                app:srcCompat="@drawable/ic_baseline_home_24"
                 tools:ignore="ImageContrastCheck" />
 
 
@@ -106,7 +107,6 @@
             android:layout_height="59dp"
             android:layout_marginEnd="20dp"
             android:background="@color/SecondCol"
-            android:onClick="settingsMe"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.95"
@@ -124,7 +124,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_baseline_settings_24"
+                app:srcCompat="@drawable/ic_baseline_settings_24_active"
                 tools:ignore="ImageContrastCheck" />
 
             <TextView
@@ -147,25 +147,17 @@
 
     <TextView
         android:id="@+id/mainheading"
-        android:layout_width="107dp"
+        android:layout_width="138dp"
         android:layout_height="30dp"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/lato"
-        android:text="@string/home_head"
+        android:text="@string/settings_head"
         android:textColor="@color/TextCol"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mainheading" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
