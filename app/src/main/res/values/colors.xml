@@ -11,4 +11,5 @@
     <color name="SecondCol">#9F4636</color>
     <color name="ThirdCol">#6C2D2C</color>
     <color name="TextCol">#150909</color>
+    <color name="TextCol_wt">#E0E0E0</color>
 </resources>
