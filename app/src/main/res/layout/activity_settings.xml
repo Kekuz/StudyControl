@@ -7,6 +7,20 @@
     android:background="@color/MainCol"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/mainheading7"
+        android:layout_width="187dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/roboto"
+        android:text="Автоповорт экрана"
+        android:textColor="@color/TextCol"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
 
         android:id="@+id/constraintLayout"
@@ -158,6 +172,102 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/mainheading2"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/roboto"
+        android:text="Шрифт"
+        android:textColor="@color/TextCol"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mainheading5"
+        android:layout_width="358dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="148dp"
+        android:fontFamily="@font/roboto"
+        android:text="Адаптивная регулировка яркости"
+        android:textColor="@color/TextCol"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mainheading6"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/roboto"
+        android:text="Оптимизация уровня яркости в зависимости от освеченности"
+        android:textColor="#636363"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainheading5" />
+
+    <TextView
+        android:id="@+id/mainheading4"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/roboto"
+        android:text="По умолчанию"
+        android:textColor="#636363"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainheading2" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="48dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="24dp"
+        android:textColorHighlight="@color/ThirdCol"
+        android:textColorLink="@color/ThirdCol"
+        app:layout_constraintBottom_toBottomOf="@+id/mainheading7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/mainheading7"
+        app:layout_constraintTop_toTopOf="@+id/mainheading7" />
+
+    <TextView
+        android:id="@+id/mainheading9"
+        android:layout_width="188dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="296dp"
+        android:fontFamily="@font/roboto"
+        android:text="Автоблокировка"
+        android:textColor="@color/TextCol"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mainheading10"
+        android:layout_width="213dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/roboto"
+        android:text="После 10 мин. бездействия"
+        android:textColor="#636363"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainheading9" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
